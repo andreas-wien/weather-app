@@ -8,6 +8,8 @@ export const metadata = {
   description: 'A Weather App',
 }
 
+export const dynamic = 'force-dynamic'
+
 export default async function RootLayout({ children }) {
   return (
     <html lang="en" className="overflow-hidden">
