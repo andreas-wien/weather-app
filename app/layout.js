@@ -8,7 +8,7 @@ export const metadata = {
   description: 'A Weather App',
 }
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
   return (
     <html lang="en" className="overflow-hidden">
       <Head>
