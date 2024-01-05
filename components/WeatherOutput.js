@@ -6,9 +6,9 @@ import getClientIp from "../utility/getClientIp";
 
 async function getCurrentWeatherBasedOnIp() {
     try {
-        const ip = getClientIp();
+        const ip = await getClientIp();
         if (!ip) {
-            return res.status(400).json({ error: 'No ip provided' });
+            return JSON.stringify({ error: 'No ip provided' });
         }
 
         const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${ip}`, {

@@ -1,7 +1,7 @@
 import { headers } from 'next/headers'
 require('dotenv').config();
 
-export default function getClientIp() {
+export default async function getClientIp() {
     if (process.env.DEV_ENV === "true") {
         return process.env.DEV_IP
     }
