@@ -1,0 +1,28 @@
+.weatherOutputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.weatherOutputContainer p {
+    padding: 0.25rem;
+}
+
+.locationInfoContainer {
+    flex: 1;
+    padding-top: 2rem;
+}
+
+.weatherIconContainer {
+    flex: 1;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.weatherInfoContainer {
+    flex: 1;
+    padding-top: 1rem;
+}
