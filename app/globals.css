@@ -16,4 +16,5 @@ body {
 
 main {
     flex: auto;
+    display: flex;
 }

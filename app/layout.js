@@ -16,7 +16,7 @@ export const dynamic = "force-dynamic";
 
 export default async function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-slate-900">
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta charset="UTF-8" />

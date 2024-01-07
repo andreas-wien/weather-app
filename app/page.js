@@ -8,7 +8,7 @@ export default async function Home() {
       <header className="text-center text-3xl font-extrabold m-0 p-4 bg-slate-950 text-gray-300">
         <h1>Current Weather</h1>
       </header>
-      <main className="bg-slate-900 text-gray-300">
+      <main className=" text-gray-300 m-auto">
         <WeatherOutput />
       </main>
       <Footer />
