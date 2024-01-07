@@ -3,7 +3,7 @@ import style from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className="text-center m-2 bg">
+    <footer className="text-center m-0 p-2 bg-slate-950 text-gray-300">
       <div>
         <span>
           {new Date().getFullYear()} &copy;{" "}
