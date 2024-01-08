@@ -1,3 +1,4 @@
+import WeatherForecast from "@/components/WeatherForecast";
 import WeatherOutput from "../components/WeatherOutput";
 import styles from "./page.module.css";
 import Footer from "@/components/Footer";
@@ -9,7 +10,10 @@ export default async function Home() {
         <h1>Current Weather</h1>
       </header>
       <main className=" text-gray-300 m-auto">
-        <WeatherOutput />
+        <div>
+          <WeatherOutput />
+          <WeatherForecast />
+        </div>
       </main>
       <Footer />
     </>
